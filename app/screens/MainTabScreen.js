@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Text} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
-import {createDrawerNavigator} from '@react-navigation/drawer';
+
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {Provider as PaperProvider} from 'react-native-paper';
 //import {Tab} from 'react-native-elements/dist/tab/Tab';
@@ -19,7 +19,6 @@ import {
   ProfileStackScreen,
 } from './StackScreen';
 
-const Drawer = createDrawerNavigator();
 const Tab = createMaterialBottomTabNavigator();
 const MainTabScreen = () => {
   const [route, setRoute] = useState('home');

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Text, View, ImageBackground, StyleSheet, Image} from 'react-native';
 import {TextInput, TouchableOpacity} from 'react-native-gesture-handler';
 import {Ionicons} from '@expo/vector-icons';
-import {useTheme} from 'react-navigation';
+import {useTheme} from '@react-navigation/native';
 import {colorsDark} from 'react-native-elements/dist/config';
 import {Feather} from '@expo/vector-icons';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
