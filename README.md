@@ -1,4 +1,4 @@
 # Quora For College 
 
-Tech:  React Native
+Tech:  React Native, JavaScript
 
